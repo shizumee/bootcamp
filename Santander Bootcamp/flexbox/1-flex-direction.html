@@ -36,6 +36,24 @@
         .row-reverse li{
             background-color: red ;
         }
+
+        .collum{
+            float: left;
+            flex-direction: column;
+        }
+
+        .collum li{
+            background: orange;
+        }
+
+        .collum-reverse{
+            float: right;
+            flex-direction: column-reverse;
+        }
+
+        .collum-reverse li{
+            background: purple;
+        }
              
     </style>
 </head>
@@ -49,6 +67,22 @@
     </ul>
     
     <ul class="flex-container row-reverse">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+    </ul>
+
+    <ul class="flex-container collum">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+    </ul>
+
+    <ul class="flex-container collum-reverse">
         <li class="flex-item">1</li>
         <li class="flex-item">2</li>
         <li class="flex-item">3</li>
