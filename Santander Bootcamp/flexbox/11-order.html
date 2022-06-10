@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - order</title>
+    <style>
+        .flex-container{
+            display: flex;
+            max-width: 350px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+        }
+
+        .item{
+            flex: 1;
+            background: brown;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            margin: 5px;
+        }
+
+        .o1{
+            order: 1;
+        }
+
+        .o2{
+            order: 2;
+        }
+
+        .o3{
+            order: 3;
+        }
+        
+        .o4{order: 4;
+        }
+
+        .direction{
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Row</h1>
+    <h2>Order: 0</h2>
+    <dev class="flex-container">
+        <dev class="item">1</dev>
+        <dev class="item">2</dev>
+        <dev class="item">3</dev>
+        <dev class="item">4</dev>
+    </dev>
+ 
+    <h2>Order diferentes</h2>
+    <dev class="flex-container">
+        <dev class="item o4">1</dev>
+        <dev class="item o2">2</dev>
+        <dev class="item o3">4n</dev>
+        <dev class="item o1">4m</dev>
+    </dev>
+
+    <h1>Column</h1>
+    <h2>Order: 0</h2>
+    <dev class="flex-container direction">
+        <dev class="item">1</dev>
+        <dev class="item">2</dev>
+        <dev class="item">3</dev>
+        <dev class="item">4</dev>
+    </dev>
+
+    <h1>Order diferentes</h1>
+    <dev class="flex-container direction">
+        <dev class="item o4">1</dev>
+        <dev class="item o2">2</dev>
+        <dev class="item o3">4n</dev>
+        <dev class="item o1">4m</dev>
+    </dev>
+    
+</body>
+</html>:
